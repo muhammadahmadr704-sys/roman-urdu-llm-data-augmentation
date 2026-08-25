@@ -51,7 +51,6 @@ label_definitions.txt
 The validation split used in this project was reconstructed from the training data using stratified sampling because the validation file obtained from the original repository duplicated the training data. The official test set was kept separate and used only for final evaluation.
 
 Software and Hardware Requirements
-
 The project was implemented in Python using Jupyter notebooks. Main libraries include:
 ```text
 PyTorch
@@ -121,7 +120,9 @@ The directory `04_generation/` contains:
 `pilot_generation/` – pilot generations used during development.
 `round1_raw_generation/` – first full generation round.
 `round2_raw_generation/` – second full generation round.
+
 Quality-Control Pipeline
+
 The directory `05_quality_control/` contains the intermediate and final QC artefacts.
 Prometheus and human validation
 `05_quality_control/prometheus_and_human_validation/` contains human annotation files, Prometheus outputs, diagnostic results, parsing failures and supporting notebooks/spreadsheets. These files document the evaluation that led to Prometheus being excluded from the final QC pipeline.
@@ -171,7 +172,9 @@ Direct classification results for the generation-adapted Mistral model are store
 This folder contains validation predictions, test predictions, overall test summaries and per-class results. The model was adapted for generation rather than classification, so this comparison should be interpreted in that context.
 Exploratory Material
 The directory `08_exploratory_material/` contains development stage experiments that informed the final methodology but are not part of the authoritative final evaluation. These include base Mistral prompting, Qwen experiments and generator evaluation material.
+
 Executable Software
+
 A standalone executable file is not provided because this project is implemented as a sequence of Python Jupyter notebooks for dataset preparation, model training, LLM adaptation, synthetic-data generation, quality control and evaluation.
 To run the project, an examiner should:
 Create a Python environment with the required libraries.
