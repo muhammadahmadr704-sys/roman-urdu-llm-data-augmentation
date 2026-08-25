@@ -1,13 +1,18 @@
 
-#Project Title
-##Large Language Model Based Data Augmentation for Hate Speech Detection in Roman Urdu
+Project Title
+Large Language Model Based Data Augmentation for Hate Speech Detection in Roman Urdu
 
 ##Project Overview
+
 This repo contains the source code, datasets, synthetic data, quality control outputs, model artefacts and final evaluation results produced for the dissertation project.
 The project investigates whether large language models can be used to generate useful synthetic Roman Urdu training data for fine-grained hate speech detection. The work uses the RUHSOLD dataset and focuses on the minority classes Religious Hate, Sexism and Profane. Mistral-7B-Instruct-v0.2 was adapted using QLoRA for synthetic-data generation, while XLM-R was used as the final downstream classifier. A multi stage quality control pipeline was developed to compare unfiltered synthetic augmentation with quality-controlled augmentation.
+
 Content Warning
+
 This project contains examples of abusive, offensive, sexist, religiously hateful and profane language. Some files contain authentic social media posts and some contain model-generated harmful content. These materials are included solely for academic research and evaluation purposes.
+
 Directory Structure
+
 ```text
 
 ├── README.md
@@ -20,7 +25,9 @@ Directory Structure
 ├── 07_results/
 └── 08_exploratory_material/
 ```
+
 Dataset and Label Mapping
+
 The project uses the fine-grained RUHSOLD Roman Urdu hate-speech dataset.
 ```text
 0 = Abusive or Offensive Language
@@ -30,14 +37,21 @@ The project uses the fine-grained RUHSOLD Roman Urdu hate-speech dataset.
 4 = Profane
 ```
 The final data files used in the experiments are located in `01_data/`:
+
 ```text
 RUHSOLD_train.tsv
+
 RUHSOLD_validation.tsv
+
 RUHSOLD_test.tsv
+
 label_definitions.txt
+
 ```
 The validation split used in this project was reconstructed from the training data using stratified sampling because the validation file obtained from the original repository duplicated the training data. The official test set was kept separate and used only for final evaluation.
+
 Software and Hardware Requirements
+
 The project was implemented in Python using Jupyter notebooks. Main libraries include:
 ```text
 PyTorch
@@ -53,14 +67,21 @@ NumPy
 Optuna
 Matplotlib
 ```
+
 The experiments were conducted in the Queen Mary University of London JupyterHub environment using an NVIDIA A100 GPU. A CUDA capable GPU is strongly recommended for reproducing the LLM adaptation, synthetic generation and repeated classifier training experiments.
+
 Required Pre-trained Models
+
 Important public models used by the notebooks include:
 ```text
 mistralai/Mistral-7B-Instruct-v0.2
+
 FacebookAI/xlm-roberta-base
+
 google-bert/bert-base-multilingual-cased
+
 intfloat/multilingual-e5-large
+
 sentence-transformers/LaBSE
 ```
 Additional models explored during development are documented in the corresponding notebooks. Internet access and sufficient Hugging Face cache space may be required when reproducing the experiments from scratch.
