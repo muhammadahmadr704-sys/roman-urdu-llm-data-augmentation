@@ -2,7 +2,7 @@
 Project Title
 Large Language Model Based Data Augmentation for Hate Speech Detection in Roman Urdu
 
-##Project Overview
+Project Overview
 
 This repo contains the source code, datasets, synthetic data, quality control outputs, model artefacts and final evaluation results produced for the dissertation project.
 The project investigates whether large language models can be used to generate useful synthetic Roman Urdu training data for fine-grained hate speech detection. The work uses the RUHSOLD dataset and focuses on the minority classes Religious Hate, Sexism and Profane. Mistral-7B-Instruct-v0.2 was adapted using QLoRA for synthetic-data generation, while XLM-R was used as the final downstream classifier. A multi stage quality control pipeline was developed to compare unfiltered synthetic augmentation with quality-controlled augmentation.
