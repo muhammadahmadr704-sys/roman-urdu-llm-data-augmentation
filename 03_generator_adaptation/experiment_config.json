@@ -1,0 +1,35 @@
+{
+    "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+    "fine_tuning_method": "QLoRA supervised fine-tuning",
+    "source_dataset": "../RUHSOLD_train.tsv",
+    "number_of_cleaned_rows": 6401,
+    "number_of_sft_train_rows": 6080,
+    "number_of_sft_eval_rows": 321,
+    "evaluation_fraction": 0.05,
+    "split_seed": 42,
+    "label_config": {
+        "0": {
+            "name": "Abusive/Offensive",
+            "definition": "A post containing insults, personal attacks, humiliation, or rude/offensive language directed at a person or group, "
+        },
+        "1": {
+            "name": "Normal",
+            "definition": "A neutral or ordinary post that does not contain targeted abuse, untargeted profanity, sexism, or religious hate."
+        },
+        "2": {
+            "name": "Religious Hate",
+            "definition": "A post expressing hatred, hostility, insult, stereotyping, or incitement against a person or group because of their religious beliefs or lack of religious beliefs."
+        },
+        "3": {
+            "name": "Sexism",
+            "definition": "A post expressing hatred, hostility, insult, stereotyping, or degradation toward a person or group because of gender or sexual orientation."
+        },
+        "4": {
+            "name": "Profane",
+            "definition": "A post containing vulgar, foul, obscene, or explicit profanity without an intended target."
+        }
+    },
+    "instruction_templates": [
+        "You are generating synthetic examples for an academic Roman Urdu hate-speech and abusive-language classification dataset.\n\nTarget class: {label}\nClass definition: {definition}\n\nGenerate one natural, informal Roman Urdu social media post that clearly belongs to the target class. The post itself must express the requested category rather than discuss or condemn it.\n\nWrite only in Roman Urdu using the Latin alphabet. Do not use Urdu or Arabic script. Return only the generated post without an explanation, label, quotation marks or additional text."
+    ]
+}

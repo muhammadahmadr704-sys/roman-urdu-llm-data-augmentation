@@ -1,0 +1,4 @@
+class_id,target_label,input_samples,passed,rejected,pass_rate
+2,Religious Hate,246,244,2,0.991869918699187
+3,Sexism,380,377,3,0.9921052631578947
+4,Profane,218,211,7,0.9678899082568807

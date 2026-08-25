@@ -1,0 +1,81 @@
+candidate_id,target_class_id,target_class,generated_text
+religious_high_precision_v1_0319,2,Religious Hate,o jb bnda bnda hua kis ko pta hi nahi
+abusive_original_demo_v1_0100,0,Abusive/Offensive,saala lanti kuttay ki nasal
+religious_high_precision_v1_0317,2,Religious Hate,agr apnay mullo k mujeed se pehly munafikat kr rha hota to aap jesay logon say lar kar mar jaty
+round2_religious_high_precision_v2_0616,2,Religious Hate,tum logon ne kaha tha k jb humne tera pichwaara ko dhoondha tha to tum logon ne goli maar diye..!
+round2_abusive_original_demo_v2_0916,0,Abusive/Offensive,yeh kya bhenchod
+religious_high_precision_v1_0304,2,Religious Hate,tum logon ko bhi munafiqat se koi nahi pata
+abusive_original_demo_v1_0101,0,Abusive/Offensive,laanat apne ghar per jo ek sath aik larki k aurat march ka pata nahi.
+profane_original_demo_v1_0710,4,Profane,ye pata nahi kya gandu mera dost hai yaar
+abusive_original_demo_v1_0106,0,Abusive/Offensive,ye logon ne koi wafa nhi kiya kisi ke liye bhen chod
+round2_abusive_original_demo_v2_0910,0,Abusive/Offensive,gashti ko bachy
+sexism_high_precision_v1_0511,3,Sexism,sary duniya mein teri behan ki bari beti se achi hi gandu randi mera jism meri marzi
+round2_religious_high_precision_v2_0613,2,Religious Hate,chalo tere jaise gandu ko kuch hi milna tha to ijazat kro.
+round2_profane_original_demo_v2_0818,4,Profane,gandi nasal
+religious_zero_shot_v1_0337,2,Religious Hate,bharwe khanzeer ghatia harami muslim nawaz sharif
+profane_original_demo_v1_0718,4,Profane,bc ye sab baat kaun si tarha kiya hai
+round2_sexism_high_precision_v2_0708,3,Sexism,jab tu teri maa chodu tha tab ptaa thaa ki teri behn bhi h
+round2_profane_original_demo_v2_0810,4,Profane,iske jaise logon ko aurat march ki wajah se bolne de diye thi.
+round2_profane_original_demo_v2_0812,4,Profane,bc chalo kabhi kabhi hi tu jana chahega naðŸ˜‚
+round2_sexism_high_precision_v2_0716,3,Sexism,ye fake hai iski maa ko chut randi sali
+sexism_high_precision_v1_0505,3,Sexism,randi ki nasal
+abusive_original_demo_v1_0104,0,Abusive/Offensive,bhenchod tujhe na milna chahiye?
+round2_profane_original_demo_v2_0800,4,Profane,bhenchod ye tweet mat likha
+round2_abusive_original_demo_v2_0906,0,Abusive/Offensive,tm ny apni amma ko behn k liye mar dia hai... teri maa ki beti jaldi shadi kar lee
+round2_sexism_high_precision_v2_0713,3,Sexism,tere jaisy randiyon ko bhi bhool jaana chahta hu...
+religious_zero_shot_v1_0325,2,Religious Hate,hahaha halala ka bacha kya pta chl jata ha ye ðŸ˜‚ðŸ˜‚ðŸ˜‚
+profane_original_demo_v1_0702,4,Profane,yeh bhenchod nazeer hi nahin dekhte hain
+sexism_original_demo_v1_0538,3,Sexism,apnay baap ko sikhao to hijra
+sexism_high_precision_v1_0504,3,Sexism,ye hi bharwe tera jism meri marzi tere maa ki phudi mein chodu teri maa ki phudi mein fojne tere baap ke paas baat karo
+round2_abusive_original_demo_v2_0904,0,Abusive/Offensive,ye dahi ke chote mc hain
+religious_zero_shot_v1_0328,2,Religious Hate,chalo ye kya bat hai bajwa tere jesy yahoodi agent ka nahi milta
+sexism_original_demo_v1_0524,3,Sexism,teri maa ki phudi maine pakistani saali ke sath tha..ðŸ˜‚
+round2_profane_original_demo_v2_0814,4,Profane,rt : bc aik din kabhi tere saamne dekh raha tha tu ghar se nikal kya aajayega?
+round2_abusive_original_demo_v2_0912,0,Abusive/Offensive,oye bhenchod
+sexism_original_demo_v1_0531,3,Sexism,acha hai tu phir tere baare mei sharam nai hai
+sexism_original_demo_v1_0532,3,Sexism,ye nikla tha kuch chupaya ho ga
+round2_abusive_original_demo_v2_0911,0,Abusive/Offensive,randdi rona hai yar
+profane_original_demo_v1_0704,4,Profane,bhenchod yahan duniya ka pata nahi
+religious_original_demo_v1_0341,2,Religious Hate,koi mafia ki bat nhi krny.......islam ka naam lgta ha baki ap ny bata diya ðŸ˜‚
+sexism_high_precision_v1_0518,3,Sexism,teri ammi ka jism meri marzi
+abusive_original_demo_v1_0103,0,Abusive/Offensive,chutiye ghatya ptm k charsi ho gaye
+round2_profane_original_demo_v2_0802,4,Profane,tumhare maa baap ne apke liye aisa kuch nahi kehaya
+abusive_original_demo_v1_0109,0,Abusive/Offensive,apni maa ki phudi maarun tera baap hai
+abusive_original_demo_v1_0107,0,Abusive/Offensive,tu na kaha bhenchod
+religious_original_demo_v1_0343,2,Religious Hate,sara shakh ka tik tok ban gaya hai
+abusive_original_demo_v1_0118,0,Abusive/Offensive,teri maa ne choda tha teri ammi ka yaar
+profane_original_demo_v1_0711,4,Profane,like its about fucking time bhenchod
+round2_abusive_original_demo_v2_0914,0,Abusive/Offensive,rt : charsi hai ye bhenchod
+religious_zero_shot_v1_0336,2,Religious Hate,yahoodi sazish ki hai
+profane_original_demo_v1_0712,4,Profane,haha yehi larkiyan ke liye jitni kya gandu hai???
+sexism_original_demo_v1_0539,3,Sexism,bc tum kutti kuttay mangne ka zaroorat nahi
+round2_sexism_high_precision_v2_0715,3,Sexism,aurat march ke tere jaise hijra ladkio ne goli mar diya ha kuch na ho
+profane_original_demo_v1_0716,4,Profane,psl huwa bc tera ghar mein
+abusive_original_demo_v1_0113,0,Abusive/Offensive,yaar tu bahut jaandar ho. tumhari tweet kya hi kar raha tha
+religious_zero_shot_v1_0335,2,Religious Hate,ab ye yahoodi kuch bhi kar sakta hai
+sexism_high_precision_v1_0508,3,Sexism,mard ko ghar nahi jana chahye jo usko aurat ke baare mein sochna chahey
+religious_zero_shot_v1_0327,2,Religious Hate,"yahodi agent, you have no shame."
+round2_sexism_high_precision_v2_0705,3,Sexism,aurat march ki maa ka yaar
+round2_religious_high_precision_v2_0607,2,Religious Hate,ahmadiya muslims ko dekh liye hain jab baat nahi krni thi wo muslim hi hain
+sexism_original_demo_v1_0526,3,Sexism,ye randi bhenchod
+round2_profane_original_demo_v2_0803,4,Profane,bc tere baap ne tu bhej k mara hai?
+sexism_original_demo_v1_0536,3,Sexism,tum bhi nai sakte ho yaada
+round2_abusive_original_demo_v2_0915,0,Abusive/Offensive,ye kisi ko koi tarjuma nahi krty
+round2_religious_high_precision_v2_0618,2,Religious Hate,tum logon ko paida kerne walee pti k sath hain? ðŸ˜‚
+profane_original_demo_v1_0714,4,Profane,bhenchod jab tera number dekhun to aesa ho hi rahga
+sexism_high_precision_v1_0507,3,Sexism,tmhra jism tera marm ni hota ye duniya se hi pta chl gaya
+round2_profane_original_demo_v2_0807,4,Profane,bharwe ðŸ˜’
+round2_profane_original_demo_v2_0806,4,Profane,bhenchodo ye logon ko mard marne wale bano
+religious_zero_shot_v1_0334,2,Religious Hate,yar sab nawaz sharif ko bacha krna ha but mian sb ko dushman banaya
+round2_religious_high_precision_v2_0615,2,Religious Hate,tere jaise mullo ne dushman ko yad rakha tha ðŸ˜‚
+abusive_original_demo_v1_0102,0,Abusive/Offensive,rt :   kuch ni dekh k bhej rha hn saali
+sexism_high_precision_v1_0510,3,Sexism,haali nahi randi ka baccha salman khan
+religious_high_precision_v1_0302,2,Religious Hate,aur agar imran khan ne shias ka support kia to wo sunni kafir ho gaye
+abusive_original_demo_v1_0115,0,Abusive/Offensive,oyeee bc humein ye laga dekh leta hai bharwe
+round2_religious_high_precision_v2_0614,2,Religious Hate,ahmadi muslims are not part of muslim ummah but they belong to other communities like christianity
+profane_original_demo_v1_0700,4,Profane,rt : bc meri bari baar chodwani nikli thi ðŸ˜­
+religious_high_precision_v1_0301,2,Religious Hate,i am shia so u can call me yahoodi but i will never ever support ahmedi's
+round2_profane_original_demo_v2_0817,4,Profane,bhenchod ye baat kya hai
+profane_original_demo_v1_0717,4,Profane,500 followers nhi hain 8000 retweet krne ke liye jao ye tweet
+round2_abusive_original_demo_v2_0900,0,Abusive/Offensive,jis din tu apna ghar ghar jata tu mar ja
+sexism_high_precision_v1_0516,3,Sexism,hay iske pasaand ho tum hi hijre
