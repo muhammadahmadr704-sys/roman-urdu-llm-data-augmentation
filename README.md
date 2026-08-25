@@ -1,6 +1,15 @@
+## Dissertation
 
-Project Title
-Large Language Model Based Data Augmentation for Hate Speech Detection in Roman Urdu
+The full MSc dissertation associated with this repository is available here:
+
+[Read the MSc Dissertation](09_dissertation/Muhammad_Ahmad_Raza_MSc_Dissertation.pdf)
+
+**Title:** *Large Language Model Based Data Augmentation for Hate Speech Detection in Roman Urdu*
+
+**Programme:** MSc Machine Learning for Visual Data Analytics  
+**Institution:** Queen Mary University of London  
+**Year:** 2026
+
 
 Project Overview
 
