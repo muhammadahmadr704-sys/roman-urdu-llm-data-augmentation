@@ -1,14 +1,14 @@
-Supporting Material
+
 Project Title
 Large Language Model Based Data Augmentation for Hate Speech Detection in Roman Urdu
 Project Overview
-This supporting material contains the source code, datasets, synthetic data, quality-control outputs, model artefacts and final evaluation results produced for the dissertation project.
-The project investigates whether large language models can be used to generate useful synthetic Roman Urdu training data for fine-grained hate speech detection. The work uses the RUHSOLD dataset and focuses on the minority classes Religious Hate, Sexism and Profane. Mistral-7B-Instruct-v0.2 was adapted using QLoRA for synthetic-data generation, while XLM-R was used as the final downstream classifier. A multi-stage quality-control pipeline was developed to compare unfiltered synthetic augmentation with quality-controlled augmentation.
+This repo contains the source code, datasets, synthetic data, quality control outputs, model artefacts and final evaluation results produced for the dissertation project.
+The project investigates whether large language models can be used to generate useful synthetic Roman Urdu training data for fine-grained hate speech detection. The work uses the RUHSOLD dataset and focuses on the minority classes Religious Hate, Sexism and Profane. Mistral-7B-Instruct-v0.2 was adapted using QLoRA for synthetic-data generation, while XLM-R was used as the final downstream classifier. A multi stage quality control pipeline was developed to compare unfiltered synthetic augmentation with quality-controlled augmentation.
 Content Warning
-This project contains examples of abusive, offensive, sexist, religiously hateful and profane language. Some files contain authentic social-media posts and some contain model-generated harmful content. These materials are included solely for academic research and evaluation purposes.
+This project contains examples of abusive, offensive, sexist, religiously hateful and profane language. Some files contain authentic social media posts and some contain model-generated harmful content. These materials are included solely for academic research and evaluation purposes.
 Directory Structure
 ```text
-Supporting_Material/
+
 ├── README.md
 ├── 01_data/
 ├── 02_notebooks/
@@ -52,7 +52,7 @@ NumPy
 Optuna
 Matplotlib
 ```
-The experiments were conducted in the Queen Mary University of London JupyterHub environment using an NVIDIA A100 GPU. A CUDA-capable GPU is strongly recommended for reproducing the LLM adaptation, synthetic generation and repeated classifier-training experiments.
+The experiments were conducted in the Queen Mary University of London JupyterHub environment using an NVIDIA A100 GPU. A CUDA capable GPU is strongly recommended for reproducing the LLM adaptation, synthetic generation and repeated classifier training experiments.
 Required Pre-trained Models
 Important public models used by the notebooks include:
 ```text
@@ -132,7 +132,7 @@ original_xlm_r/
 unfiltered_1x/
 qc_filtered_1x/
 ```
-Each condition contains per-seed test predictions and classification reports for random seeds 42, 43 and 44.
+Each condition contains per seed test predictions and classification reports for random seeds 42, 43 and 44.
 Combined result files include:
 ```text
 all_xlmr_test_runs.csv
@@ -148,12 +148,12 @@ Direct classification results for the generation-adapted Mistral model are store
 ```
 This folder contains validation predictions, test predictions, overall test summaries and per-class results. The model was adapted for generation rather than classification, so this comparison should be interpreted in that context.
 Exploratory Material
-The directory `08_exploratory_material/` contains development-stage experiments that informed the final methodology but are not part of the authoritative final evaluation. These include base Mistral prompting, Qwen experiments and generator-evaluation material.
+The directory `08_exploratory_material/` contains development stage experiments that informed the final methodology but are not part of the authoritative final evaluation. These include base Mistral prompting, Qwen experiments and generator evaluation material.
 Executable Software
 A standalone executable file is not provided because this project is implemented as a sequence of Python Jupyter notebooks for dataset preparation, model training, LLM adaptation, synthetic-data generation, quality control and evaluation.
 To run the project, an examiner should:
 Create a Python environment with the required libraries.
-Use a CUDA-capable GPU for computationally intensive stages.
+Use a CUDA capable GPU for computationally intensive stages.
 Download the required public pre-trained models from Hugging Face.
 Open the notebooks in `02_notebooks/`.
 Update file paths where necessary for the local environment.
@@ -171,10 +171,9 @@ The final downstream comparison uses random seeds:
 43
 44
 ```
-The same held-out RUHSOLD test set is used across the original, unfiltered and quality-controlled conditions. The unfiltered and quality-controlled conditions contain the same number of synthetic examples for each target class so that the comparison focuses on the effect of quality control rather than data quantity.
-Some notebook paths reflect the original Queen Mary JupyterHub project directory and may need to be changed when the project is run elsewhere. CUDA versions, package versions and model-download versions may also affect exact reproduction. The supplied predictions and final result summaries therefore provide the authoritative record of the experiments reported in the dissertation.
+The same held out RUHSOLD test set is used across the original, unfiltered and quality controlled conditions. The unfiltered and quality controlled conditions contain the same number of synthetic examples for each target class so that the comparison focuses on the effect of quality control rather than data quantity.
+Some notebook paths reflect the original Queen Mary JupyterHub project directory and may need to be changed when the project is run elsewhere. CUDA versions, package versions and model download versions may also affect exact reproduction. The supplied predictions and final result summaries therefore provide the authoritative record of the experiments reported in the dissertation.
 Storage and Distribution
-This supporting-material package is larger than the School's 50 MB direct ZIP limit because it includes the final Mistral QLoRA adapter and detailed QC artefacts. It is therefore intended to be distributed using the School's large-file submission route via a downloadable URL.
-Generated harmful-language data should be handled responsibly and should not be redistributed outside legitimate academic or research contexts without appropriate consideration of ethical and data-protection issues.
+Generated harmful language data should be handled responsibly and should not be redistributed outside legitimate academic or research contexts without appropriate consideration of ethical and data protection issues.
 Project Context
 This supporting material accompanies an MSc dissertation submitted to the School of Electronic Engineering and Computer Science, Queen Mary University of London.
